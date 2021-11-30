@@ -12,12 +12,6 @@ Pod::Spec.new do |s|
   s.summary          = "UIStyleOrganizer is style manager for your application working in xibs, storyboards and from code."
   s.description      = "UIStyleOrganizer is style manager for your application working in xibs, storyboards and from code. You can simply set style filed in component user info to set style. To define style simply create category for UIStyleOrganizer. The style string from compenent will use style from Style Organizer."
 
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
   s.homepage         = "https://github.com/StanislavRedreiev/UIStyleOrganizer"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'Other'
@@ -30,7 +24,6 @@ Pod::Spec.new do |s|
     'UIStyleOrganizer' => ['UIStyleOrganizer/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
   s.dependency 'UIColor+InputMethods'
   s.dependency 'UIImage+ImageWithColor'
