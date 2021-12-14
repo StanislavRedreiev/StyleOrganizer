@@ -55,3 +55,7 @@ override func viewDidLoad() {
     button.applyStyle(StyleOrganizer.continueButtonStyle())
 }
 ```
+How to use style in IB (xib, storyboard).
+
+<img src="https://github.com/StanislavRedreiev/StyleOrganizer/blob/main/documentation/images/example_setup_style_ib_1.png" alt="xib" title="xib" width="350"/>
+<img src="https://github.com/StanislavRedreiev/StyleOrganizer/blob/main/documentation/images/example_setup_style_ib_2.png" alt="xib" title="xib" width="350"/>
