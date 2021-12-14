@@ -1,4 +1,4 @@
-# StyleOrganizer
+<img src="https://github.com/StanislavRedreiev/StyleOrganizer/blob/main/documentation/images/style_organizer_logo.png" alt="xib" title="xib" width="200"/>
 StyleOrganizer is style manager for your application working in xibs, storyboards and from code. You can simply set style filed in component's user info to set style. To define style simply create extension (swift) or category (objective-c) for StyleOrganizer class. The style string from component will use style from Style Manager.
 
 ### Installation
