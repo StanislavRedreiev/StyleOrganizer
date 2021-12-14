@@ -26,9 +26,6 @@ let package = Package(
         .target(
             name: "StyleOrganizer",
             path: "StyleOrganizer/Classes",
-            dependencies: []),
-        .testTarget(
-            name: "StyleOrganizerTests",
-            dependencies: ["StyleOrganizer"]),
+            dependencies: [])
     ]
 )
