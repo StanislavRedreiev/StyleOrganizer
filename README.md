@@ -1,5 +1,5 @@
 # StyleOrganizer
-StyleOrganizer is style manager for your application working in xibs, storyboards and from code. You can simply set style filed in component's user info to set style. To define style simply create category for StyleOrganizer class. The style string from component will use style from Style Manager.
+StyleOrganizer is style manager for your application working in xibs, storyboards and from code. You can simply set style filed in component's user info to set style. To define style simply create extension (swift) or category (objective-c) for StyleOrganizer class. The style string from component will use style from Style Manager.
 
 ### Installation
 
@@ -19,6 +19,7 @@ end
 
 ### Example
 
+How to define style for some component.
 ```ruby
 extension StyleOrganizer {
 
@@ -42,5 +43,15 @@ extension StyleOrganizer {
         style.title = "SIGN_UP:CONTINUE".localized
         return style
     }
+}
+```
+How to use style in code.
+```ruby
+@IBOutlet weak var continueButton: SOStylishGradientButton!
+
+override func viewDidLoad() {
+    super.viewDidLoad()
+
+    button.applyStyle(StyleOrganizer.continueButtonStyle())
 }
 ```
