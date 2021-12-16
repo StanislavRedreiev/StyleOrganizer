@@ -5,7 +5,7 @@
 //  Created by super team on 4/3/19.
 //
 
-#import "UIFont+RMFontManager.h"
+#import "UIFont+SOFontManager.h"
 
 @implementation UIFont (SOFontManager)
 
