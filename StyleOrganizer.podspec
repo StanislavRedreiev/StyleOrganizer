@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "StyleOrganizer"
-  s.version          = "1.0.3"
+  s.version          = "1.0.5"
   s.summary          = "StyleOrganizer is style manager for your application working in xibs, storyboards and from code."
   s.description      = "StyleOrganizer is style manager for your application working in xibs, storyboards and from code. You can simply set style filed in component user info to set style. To define style simply create category for RMStyleManager. The style string from compenent will use style from Style Manager."
   
