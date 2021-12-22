@@ -7,7 +7,7 @@ StyleOrganizer is style manager for your application working in xibs, storyboard
 
 - File > Swift Packages > Add Package Dependency
 - Add `git@github.com:StanislavRedreiev/StyleOrganizer.git`
-- Select "Up to Next Major" with "1.0.3"
+- Select "Up to Next Major" with "1.0.5"
 
 #### CocoaPods
 
