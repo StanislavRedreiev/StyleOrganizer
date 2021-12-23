@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SOBaseStyle.h"
+//#import "SOBaseStyle.h"
 #import "SOButtonStyle.h"
 #import "SOImageViewStyle.h"
 #import "SOLabelStyle.h"
